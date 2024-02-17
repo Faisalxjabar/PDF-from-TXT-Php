@@ -5,7 +5,7 @@ fpdf
 fpdi
 
 تعديل المقاسات لملف ال PDF يكون من المسار التالي :
-C:\xampp\htdocs\pdf\fpdf\fpdf.php
+fpdf\fpdf.php
 
 التعديل يكون على مقاس ال A4
 السطر تحت  الوصف Page sizes
