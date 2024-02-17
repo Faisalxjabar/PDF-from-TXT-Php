@@ -36,8 +36,8 @@ function createPdfFromText($text, $pdfFile, $outputPdfFile) {
 }
 
 // قراءة الملف النصي وإنشاء ملف PDF لكل سطر
-$lines = file('input8.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-$pdfFile = 'existing2.pdf'; // اسم ملف PDF القائم
+$lines = file('input.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$pdfFile = 'existing.pdf'; // اسم ملف PDF القائم
 foreach ($lines as $line) {
     // توليد اسم ملف PDF جديد بناءً على السطر الحالي
     $outputPdfFile = 'output_' . preg_replace('/\s+/', '_', $line) . '.pdf';
