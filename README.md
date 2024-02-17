@@ -1,4 +1,4 @@
-# PDF-from-TXT-Php
+# PDF from TXT Php
 
 تم  إضافة المكاتب البرمجية التالية للمشروع في ملف مضغوط  fpdf-fpdi.zip :
 fpdf
